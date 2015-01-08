@@ -15,6 +15,7 @@ body {
     font-weight:300;
     padding-top: auto;
 }
+
 .topnav:hover{
 	opacity: 1;
 	background-color:white;
@@ -48,6 +49,26 @@ body {
     font-weight:800;
     font-size: 20px;
     z-index: 99;
+}
+.nav-padding {
+	height: 65px;
+}
+@media only screen and (max-width: 900px) {
+	.topnav {
+		display: none;
+	}
+	.topnav2 {
+		display: none;
+	}
+	.subnav {
+		display: none;
+	}
+	.nav-padding {
+		height: 0;
+	}
+	.art-title {
+		display: none;
+	}
 }
 .selected{
 	color: #B21AB2;

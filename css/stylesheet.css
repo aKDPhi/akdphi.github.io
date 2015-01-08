@@ -157,7 +157,7 @@ a.pc{display: block; position: relative; top: -65px; visibility: hidden;}
 
 #donate-button {
 	height: 70px;
-	width: 200px;
+	min-width: 200px;
 	background-color: black;
 	border: 1px solid black;
 	border-radius: 3px;
@@ -167,15 +167,21 @@ input:hover {
 	cursor: pointer;
 }
 input {
-	margin: 0 40%;
 	height: 40px;
-	width: 20%;
+	min-width: 100px;
 	border: none;
 	background-color: #650065;
 	color: white;
 	border-radius: 3px;
 	font-family: 'Droid Serif';
 	font-size: 24px;
+}
+
+@media only screen and (max-width: 900px) {
+	.panel {
+		width: 80%;
+		padding: 50px 10%;
+	}
 }
 /*Colors Ref:
 http://www.99colors.net/hex/FE72FE
