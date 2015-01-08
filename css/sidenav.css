@@ -1,6 +1,6 @@
 .sidenav {
-	margin-top: 90px;
-	padding-top: 30px;
+	margin-top: 30px;
+	padding-top: 10px;
 	height: 100%;
 	width: 15%;
 	position: fixed;
@@ -15,14 +15,14 @@
 	transition: all 0.2s ease-in-out;
 }*/
 .sidenav ul li{
-	text-align: right;
+	text-align: left;
 	vertical-align: middle;
 	height: 23px;
 	width: auto;
 	line-height: 30px;
-	font-size: 15px;
+	font-size: 20px;
+	padding: 15px 0;
 	font-family: 'Raleway', Verdana;
-	background-color: white;
 }
 
 .sidenav a:hover{

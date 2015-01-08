@@ -99,7 +99,7 @@ h3 {
 .names {
 	display: inline-block;
 }
-a.pc{display: block; position: relative; top: -140px; visibility: hidden;}
+a.pc{display: block; position: relative; top: -65px; visibility: hidden;}
 
 .pledge-class {
 	width: 100%;
