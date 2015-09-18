@@ -1,20 +1,21 @@
-html {overflow-y: scroll;}
 body{
-	font-family: 'Droid Serif', 'Raleway', 'Proxima Nova',sans-serif;
+	font-family: Droid Sans, Myriad Pro, Arial,sans-serif;
 	margin: 0;
 }
 
 p {
 	padding: 5px 0;
 	margin: 0;
-	font-family: 'Droid Serif', 'Raleway';
+	font-family: Droid Sans, Myriad Pro, Arial;
 	font-size: 16px;
 }
 
+.basic-row h1 {
+	font-size: 30px;
+}
 h2 {
 	padding: 0;
 	margin: 0;
-	font-family: 'Raleway';
 	font-size: 30px;
 	font-weight: 700;
 }
@@ -22,16 +23,8 @@ h2 {
 h3 {
 	padding: 0;
 	margin: 0;
-	font-family: 'Raleway';
 	font-size: 30px;
 	font-weight: 700;	
-}
-#copyright{
-	font-size:10px;
-	vertical-align: middle;
-	padding:8px 15%;
-	background-color: #3E003E;
-	color: white;
 }
 
 .panel-pic{
@@ -73,7 +66,6 @@ h3 {
 	text-align: center;
 	padding: 0;
 	font-size: 46px;
-	font-family: 'Raleway', 'Droid Serif';
 	font-weight: 400;
 }
 .art-title {
@@ -81,7 +73,7 @@ h3 {
 	text-align: center;
 	padding: 0;
 	font-size: 80px;
-	font-family: Pristina, 'Raleway';
+	font-family: Pristina, Myriad Pro, sans-serif;
 	font-weight: 400;
 }
 
@@ -99,7 +91,7 @@ h3 {
 .names {
 	display: inline-block;
 }
-a.pc{display: block; position: relative; top: -65px; visibility: hidden;}
+a.pc{display: block; position: relative; top: -140px; visibility: hidden;}
 
 .pledge-class {
 	width: 100%;
@@ -157,7 +149,7 @@ a.pc{display: block; position: relative; top: -65px; visibility: hidden;}
 
 #donate-button {
 	height: 70px;
-	min-width: 200px;
+	width: 200px;
 	background-color: black;
 	border: 1px solid black;
 	border-radius: 3px;
@@ -167,8 +159,9 @@ input:hover {
 	cursor: pointer;
 }
 input {
+	margin: 0 40%;
 	height: 40px;
-	min-width: 100px;
+	width: 20%;
 	border: none;
 	background-color: #650065;
 	color: white;
@@ -177,11 +170,34 @@ input {
 	font-size: 24px;
 }
 
-@media only screen and (max-width: 900px) {
-	.panel {
-		width: 80%;
-		padding: 50px 10%;
-	}
+.basic-row {
+	padding: 5% 15% 5% 15%;
+}
+
+.dashboard-row {
+	margin: 1% 15% 1% 15%;
+	padding: 20px;
+	background-color: white;
+	overflow: hidden;
+	color: black; /*#838383;*/
+}
+.col-12 {
+	width: 100%;
+}
+
+.col-8 {
+	float: left;
+	width: 66.6%;
+}
+
+.col-6 {
+	float: left;
+	width: 50%;
+}
+
+.col-4 {
+	float: left;
+	width: 33.3%;
 }
 /*Colors Ref:
 http://www.99colors.net/hex/FE72FE
