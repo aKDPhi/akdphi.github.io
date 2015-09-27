@@ -143,3 +143,10 @@ a {
 	background-color: black;
 	color: white;
 }
+
+/* Mobile-friendly */
+@media only screen and (max-width: 640px) {
+	.topnav, .topnav2 {
+		display: none;
+	}
+}
